@@ -1,7 +1,7 @@
 {
   "name": "csg-to-mesh",
   "main": "index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert a csg.js model to a simplicial complex mesh",
   "scripts": {
     "test": "tape test.js"
