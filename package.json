@@ -1,0 +1,33 @@
+{
+  "name": "csg-to-mesh",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "convert a csg.js model to a simplicial complex mesh",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/csg-to-mesh.git"
+  },
+  "keywords": [
+    "csg",
+    "mesh",
+    "3d",
+    "scad",
+    "cad"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/csg-to-mesh/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/csg-to-mesh#readme",
+  "dependencies": {
+    "mesh-reindex": "^1.0.0"
+  },
+  "devDependencies": {
+    "csg": "^1.0.1",
+    "tape": "^4.0.0"
+  }
+}
