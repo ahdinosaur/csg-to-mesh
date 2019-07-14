@@ -4,7 +4,8 @@
   "version": "1.0.2",
   "description": "convert a csg.js model to a simplicial complex mesh",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "example": "node example.js | meshview"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "csg": "^1.0.1",
+    "meshview": "^1.3.3",
     "tape": "^4.0.0"
   }
 }
