@@ -1,7 +1,7 @@
-var csg = require('csg')
+var { CSG } = require('@jscad/csg')
 var csgToMesh = require('./')
 
-var cube = csg.cube({
+var cube = CSG.cube({
   center: [0, 0, 0],
   radius: [0.25, 0.5, 1]
 })
